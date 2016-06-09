@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane fx:id="cupcakesPane" minHeight="70" prefHeight="70.0" minWidth="250.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+  <children>
+    <VBox>
+     <HBox alignment="CENTER" prefHeight="26.0" prefWidth="250.0" spacing="10.0">
+        <children>
+          <TextField fx:id="optionTextField" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="flavor" />
+        </children>
+     </HBox>
+     <HBox alignment="CENTER" layoutY="35.0" minHeight="26.0" minWidth="70" prefHeight="26.0" prefWidth="250.0">
+        <children>
+          <TextField fx:id="optionTextField" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="icing" />
+           </children>
+     </HBox>
+     <HBox alignment="CENTER" layoutY="35.0" minHeight="26.0" minWidth="70" prefHeight="26.0" prefWidth="250.0">
+        <children>
+          <TextField fx:id="optionTextField" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="quantity" />
+           </children>
+     </HBox>
+    </VBox>
+   </children>
+  </Pane>

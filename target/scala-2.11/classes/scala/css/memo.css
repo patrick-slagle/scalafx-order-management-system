@@ -1,0 +1,12 @@
+#newMemoTitle {
+    -fx-font-size: 30;
+    -fx-font-family: Helvetica, sans-serif;
+    -fx-font-weight: bold;
+}
+
+.text-area {
+    -fx-margin: 0;
+    -fx-padding: 0 15 0 15;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}

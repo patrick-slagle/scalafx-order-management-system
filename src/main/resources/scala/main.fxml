@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<BorderPane maxHeight="-Infinity" minHeight="520.0" minWidth="880.0" prefHeight="520.0" prefWidth="880.0"
+            xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="controller.MainController">
+    <top>
+        <fx:include source="menubar.fxml" fx:id="menubar"/>
+    </top>
+    <center>
+        <SplitPane dividerPositions="0.5" prefHeight="160.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                    <children>
+                        <Label fx:id="month" layoutX="46.0" layoutY="6.0" text="January 30, "/>
+                        <Label fx:id="year" layoutX="222.0" layoutY="6.0" text="2016"/>
+                        <Label fx:id="day" layoutX="46.0" layoutY="47.0" text="Monday"/>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0"/>
+                        <ScrollPane fx:id="hourScrollpane" layoutX="35.0" layoutY="100.0" prefHeight="648.0"
+                                    prefWidth="331.0">
+                            <content>
+                                <VBox prefHeight="420.0" prefWidth="327.0">
+                                    <children>
+                                        <HBox id="dayHours" minHeight="45.0" prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="10.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="79.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="102.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="125.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="148.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="171.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="194.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="217.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="240.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="263.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="286.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="309.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="332.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="355.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="378.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                        <HBox id="dayHours" layoutX="10.0" layoutY="401.0" minHeight="45.0"
+                                              prefHeight="23.0" prefWidth="327.0"/>
+                                    </children>
+                                </VBox>
+                            </content>
+                        </ScrollPane>
+                    </children>
+                </AnchorPane>
+                <AnchorPane maxWidth="400.0" minHeight="0.0" minWidth="450.0" prefHeight="200.0" prefWidth="200.0"/>
+            </items>
+        </SplitPane>
+    </center>
+</BorderPane>

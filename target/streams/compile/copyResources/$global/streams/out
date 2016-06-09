@@ -1,0 +1,22 @@
+[0m[[0mdebug[0m] [0mCopy resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/application.conf,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/application.conf)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/cake_box_selected.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/cake_box_selected.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/calendar.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/calendar.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/cookies_box_selected.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/cookies_box_selected.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/css,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/cupcakes_box_selected.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/cupcakes_box_selected.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/form.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/form.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/img,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/img)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/main.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/main.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/memo_dialog.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/memo_dialog.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/menubar.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/menubar.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/order_search.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/order_search.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/other_box_selected.fxml,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/other_box_selected.fxml)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/css/calendar.css,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/css/calendar.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/css/form.css,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/css/form.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/css/main.css,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/css/main.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/css/memo.css,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/css/memo.css)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/img/calendar.png,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/img/calendar.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/img/form.png,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/img/form.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/patrickslagle/scala/MyApps/PattyCakes/src/main/resources/scala/img/home.png,/Users/patrickslagle/scala/MyApps/PattyCakes/target/scala-2.11/classes/scala/img/home.png)[0m

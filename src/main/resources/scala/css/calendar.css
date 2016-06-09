@@ -1,0 +1,25 @@
+#calendarPane {
+    -fx-padding: 0; 
+    -fx-margin: 0;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0.5;
+    -fx-border-insets: 0;
+    -fx-border-radius: 2; 
+    -fx-border-color: grey;
+}
+
+#weekdays {
+   -fx-font-size: 14px;
+   -fx-font-family: Helvetica, sans-serif;
+}
+
+#month {
+    -fx-font-size: 30;
+    -fx-font-family: Helvetica, sans-serif;
+    -fx-font-weight: bold;
+}
+
+#year {
+    -fx-font-size: 30;
+    -fx-font-family: Helvetica, sans-serif;
+}

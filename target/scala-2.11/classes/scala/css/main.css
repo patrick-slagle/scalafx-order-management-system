@@ -1,0 +1,45 @@
+.text-area {
+    -fx-margin: 0;
+    -fx-padding: 0;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-area .content {
+    -fx-background-color: #EFEFFF;
+}
+
+#month {
+    -fx-font-size: 30;
+    -fx-font-family: Helvetica, sans-serif;
+    -fx-font-weight: bold; 
+}
+
+#year {
+     -fx-font-size: 30;
+     -fx-font-family: Helvetica, sans-serif;
+}
+
+#day {
+   -fx-font-size: 16;
+  -fx-font-family: Helvetica, sans-serif;
+	-fx-font-weight: bold;
+}
+
+#hourScrollpane {    
+    -fx-background-color: transparent;
+}
+
+#hourScrollpane .scroll-bar {
+    -fx-opacity: 0;
+}
+
+#dayHours {
+    -fx-padding: 0; 
+    -fx-margin: 0;
+    -fx-border-style: solid inside;
+    -fx-border-width: 0.5 0 0 0;
+    -fx-border-insets: 0;
+    -fx-border-radius: 0.5 0.5 0.5 0.5; 
+    -fx-border-color: grey;
+}

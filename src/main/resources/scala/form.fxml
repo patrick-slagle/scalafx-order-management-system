@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="rootLayout" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="580.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FormController">
+
+  <fx:define>
+    <fx:include source="cake_box_selected.fxml" fx:id="cakePane"/>
+  </fx:define>
+  
+    <center>
+        <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+            <children>
+                <TilePane maxHeight="119.0" minHeight="100.0" prefHeight="119.0" prefWidth="485.0">
+                    <children>
+                        <HBox maxHeight="30.0" maxWidth="485.0" minHeight="10.0" prefHeight="14.0" prefWidth="485.0" TilePane.alignment="CENTER">
+                            <children>
+                                <TextField fx:id="fNameField" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="first name" />
+                                <TextField fx:id="lNameField" maxHeight="30.0" minHeight="30.0" promptText="last name" />
+                                <TextField fx:id="dateField" maxHeight="30.0" minHeight="26.0" prefHeight="30.0" prefWidth="151.0" promptText="due date" />
+                            </children>
+                        </HBox>
+                        <HBox maxHeight="30.0" maxWidth="485.0" minHeight="10.0" prefHeight="14.0" prefWidth="485.0" TilePane.alignment="CENTER">
+                            <children>
+                                <TextField fx:id="phoneNumber" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="phone number" />
+                                <TextField fx:id="email" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="331.0" promptText="e-mail" />
+                            </children>
+                        </HBox>
+
+                        <TextField fx:id="streetField" maxHeight="30.0" minHeight="30.0" promptText="street" />
+                        <HBox maxHeight="44.0" minHeight="0.0" prefHeight="27.0" prefWidth="485.0">
+                            <children>
+                                <TextField fx:id="cityField" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="374.0" promptText="city" />
+                                <TextField fx:id="stateField" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="109.0" promptText="state" />
+                                <TextField fx:id="zipField" maxHeight="30.0" minHeight="30.0" prefHeight="30.0" prefWidth="136.0" promptText="zip" />
+                            </children>
+                        </HBox>
+                    </children>
+                </TilePane>
+                <HBox maxHeight="65.0" minHeight="30.0" prefHeight="33.0" prefWidth="485.0" spacing="115.0">
+                    <children>
+                        <CheckBox fx:id="cakeCB" mnemonicParsing="false" onAction="#cakeboxSelected" text="Cake">
+                            <HBox.margin>
+                                <Insets top="8.0" />
+                            </HBox.margin>
+                        </CheckBox>
+                        <CheckBox fx:id="cookiesCB" mnemonicParsing="false" onAction="#cookiesBoxSelected" text="Cookies">
+                            <HBox.margin>
+                                <Insets top="8.0" />
+                            </HBox.margin>
+                        </CheckBox>
+                    </children>
+                    <padding>
+                        <Insets left="120.0" />
+                    </padding>
+                </HBox>
+                <StackPane fx:id="cakeAndCookiesOpts">
+                  <children>
+                  </children>
+                </StackPane>
+            <HBox layoutX="10.0" layoutY="129.0" maxHeight="65.0" minHeight="30.0" prefHeight="33.0" prefWidth="485.0" spacing="85.0">
+               <children>
+                  <CheckBox fx:id="cupcakesCB" mnemonicParsing="false" onAction="#cupcakesBoxSelected" text="Cupcakes">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </CheckBox>
+                  <CheckBox fx:id="otherCB" mnemonicParsing="false" onAction="#otherBoxSelected" text="Other">
+                     <HBox.margin>
+                        <Insets top="8.0" />
+                     </HBox.margin>
+                  </CheckBox>
+               </children>
+               <padding>
+                  <Insets left="120.0" />
+               </padding>
+            </HBox>
+            <StackPane fx:id="cupckAndOtherOpts">
+                  <children>
+                  </children>
+                </StackPane>
+                <TextArea fx:id="notes" prefHeight="200.0" prefWidth="200.0" />
+                <HBox alignment="BOTTOM_RIGHT" maxHeight="30.0" minHeight="30.0" prefHeight="100.0" prefWidth="200.0">
+                    <children>
+                        <Button id="submitOrderButton" mnemonicParsing="false" onAction="#submitOrder" text="submit" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </center>
+    <padding>
+        <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+    </padding>
+</BorderPane>

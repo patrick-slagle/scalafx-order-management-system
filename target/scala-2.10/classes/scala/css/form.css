@@ -1,0 +1,100 @@
+.root {
+    -fx-background: #DDD; 
+}
+
+.text-field, .text-area {
+    -fx-margin: 0;
+    -fx-padding: 0 15 0 15;
+    -fx-border-style: solid inside;
+    -fx-border-width: 2 0 0 2;
+    -fx-border-insets: 0;
+    -fx-border-radius: 5;
+    -fx-border-color: grey;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.text-field:focused, .text-area:focused {
+  -fx-prompt-text-fill: derive(-fx-control-inner-background, -30%);
+}
+
+#basicInformation {
+    -fx-padding: 15 0 0 0;
+}
+#fNameField {
+    -fx-border-width: 2 0 0 2;
+    -fx-border-radius: 5 0 0 0;
+}
+#lNameField {
+    -fx-border-width: 2 0 0 0;
+    -fx-border-radius: 0;
+}
+#dateField {
+    -fx-border-width: 2 2 0 0;
+    -fx-border-radius: 0 5 0 0;
+}
+
+#streetField {
+    -fx-border-width: 0 2 0 2;
+    -fx-border-radius: 0;
+}
+
+#cityField {
+    -fx-border-width: 0 0 2 2;
+    -fx-border-radius: 0 0 0 5;
+}
+#stateField {
+    -fx-border-width: 0 0 2 0;
+    -fx-border-radius: 0;
+}
+#zipField {
+    -fx-border-width: 0 2 2 0;
+    -fx-border-radius: 0 0 5 0;
+}
+#phoneNumber {
+    -fx-border-width: 0 0 0 2;
+    -fx-border-radius: 0;
+}
+
+#email {
+    -fx-border-width: 0 2 0 0;
+    -fx-border-radius: 0;
+}
+
+#productOptions {
+}
+
+#checkboxes {
+}
+
+#submitButton {
+    -fx-font-family: Helvetica, sans-serif;
+    -fx-focus-color: #CCC;
+    -fx-font-weight: bold;
+    -fx-faint-focus-color: transparent;
+    -fx-border-radius: 65;
+}
+
+ .text-area {
+    -fx-border-width: 2;
+    -fx-background-insets: 0;
+    -fx-background-color: transparent, white, transparent, white;
+ }
+.text-area .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused .content {
+    -fx-background-color: transparent, white, transparent, white;
+}
+
+.text-area:focused {
+    -fx-highlight-fill: #7ecfff;
+}
+
+.text-area .content {
+    -fx-padding: 10px;
+    -fx-text-fill: gray;
+    -fx-highlight-fill: #7ecfff;
+}
+

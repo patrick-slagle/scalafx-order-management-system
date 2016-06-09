@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+
+<Pane fx:id="otherPane" minHeight="70" minWidth="70" prefHeight="70.0" prefWidth="269.0" layoutX="200" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+     <HBox alignment="CENTER" prefHeight="26.0" prefWidth="269.0" spacing="10.0">
+        <children>
+          <CheckBox fx:id="optionCB" mnemonicParsing="false" text="Fondant">
+            <HBox.margin>
+              <Insets top="8.0" />
+            </HBox.margin>
+         </CheckBox>
+         <CheckBox fx:id="optionCB" mnemonicParsing="false" text="Fake">
+          <HBox.margin>
+            <Insets top="8.0" />
+        </HBox.margin>
+         </CheckBox>
+         </children>
+     </HBox>
+     <HBox alignment="CENTER" layoutY="35.0" minHeight="26.0" minWidth="70" prefHeight="26.0" prefWidth="280.0">
+        <children>
+          <TextField fx:id="optionTextField" maxHeight="30.0" minHeight="17.0" prefHeight="18.0" prefWidth="156.0" promptText="flavor" />
+           </children>
+     </HBox>
+   </children>
+  </Pane>
