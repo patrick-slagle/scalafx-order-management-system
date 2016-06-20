@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
-<?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox fx:id="menubar" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenubarController">
+<VBox fx:id="menubar" xmlns="http://javafx.com/javafx/8"
+xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MenubarController">
    <children>
    
        <MenuBar>
            <menus>
                <Menu mnemonicParsing="false" text="File">
                    <items>
-                       <MenuItem mnemonicParsing="false" onAction="#newFormOpener" text="New Order" />
+                       <MenuItem mnemonicParsing="false" onAction="#handlePopupOpener" text="New Order" />
                        <MenuItem mnemonicParsing="false" text="New Memo" />
                        <MenuItem mnemonicParsing="false" text="Save" />
                        <MenuItem mnemonicParsing="false" text="Print" />
@@ -44,28 +42,6 @@
                </Menu>
            </menus>
        </MenuBar>
-       <ToolBar BorderPane.alignment="CENTER">
-           <items>
-               <HBox maxHeight="30" spacing="10">
-                  <children>
-                      <ImageView fx:id="homeImage" fitHeight="20.0" fitWidth="20.0">
-                          <image>
-                              <Image url="@img/home.png" />
-                          </image>
-                      </ImageView>
-                      <ImageView fx:id="calendarImage" fitHeight="20.0" fitWidth="20.0">
-                          <image>
-                              <Image url="@img/calendar.png" />
-                          </image>
-                      </ImageView>
-                      <ImageView fx:id="newFormImage" fitHeight="20" fitWidth="20">
-                          <image>
-                              <Image url="@img/form.png" />
-                          </image>
-                      </ImageView>
-                  </children>
-               </HBox>
-           </items>
-       </ToolBar>
+       
    </children>
 </VBox>

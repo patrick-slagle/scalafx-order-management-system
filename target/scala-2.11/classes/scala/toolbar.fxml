@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.*?>
+
+ <VBox fx:id="toolbar" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ToolbarController">
+   <children>
+    
+    <ToolBar>
+           <items>
+               <HBox maxHeight="30" spacing="10">
+                  <children>
+                      <ImageView fx:id="homeImage" fitHeight="20.0" fitWidth="20.0">
+                          <image>
+                              <Image url="@img/home.png" />
+                          </image>
+                      </ImageView>
+                      <ImageView fx:id="calImage" fitHeight="20.0" fitWidth="20.0">
+                          <image>
+                              <Image url="@img/calendar.png" />
+                          </image>
+                      </ImageView>
+                      <ImageView fx:id="FormImage" fitHeight="20" fitWidth="20">
+                          <image>
+                              <Image url="@img/form.png" />
+                          </image>
+                      </ImageView>
+                  </children>
+               </HBox>
+           </items>
+       </ToolBar>
+    
+    </children>
+ </VBox>

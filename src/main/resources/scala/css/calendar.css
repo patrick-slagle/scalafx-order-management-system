@@ -14,12 +14,12 @@
 }
 
 #month {
-    -fx-font-size: 30;
+    -fx-font-size: 27;
     -fx-font-family: Helvetica, sans-serif;
     -fx-font-weight: bold;
 }
 
 #year {
-    -fx-font-size: 30;
+    -fx-font-size: 27;
     -fx-font-family: Helvetica, sans-serif;
 }

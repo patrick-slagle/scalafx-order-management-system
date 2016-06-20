@@ -9,8 +9,8 @@ import scalafxml.core.{FXMLView, NoDependencyResolver}
 
 object Main extends JFXApp {
 
-  val resource = getClass.getResource("scala/main.fxml")
-  val root = FXMLView(resource, NoDependencyResolver)
+  val res= getClass.getResource("scala/main.fxml")
+  val root = FXMLView(res, NoDependencyResolver)
 
   stage = new JFXApp.PrimaryStage {
     scene = new Scene(root) {

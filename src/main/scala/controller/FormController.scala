@@ -1,14 +1,13 @@
 package controller
 
-import scalafx.event.ActionEvent
 import javafx.scene._
 import javafx.stage.Stage
-import javafx.scene.control.Label
-import scalafx.scene.layout.{HBox, Pane, StackPane}
+
+import scalafx.event.ActionEvent
 import scalafx.scene.control.CheckBox
+import scalafx.scene.layout.StackPane
 import scalafxml.core.macros.sfxml
 import scalafxml.core.{FXMLView, NoDependencyResolver}
-import javafx.fxml.FXMLLoader
 
 
 @sfxml

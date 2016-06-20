@@ -12,7 +12,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->macros#macros_2.10;0.1-SNAPSHOT [compile->default(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [compile->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[compile, runtime(*), master(compile), runtime, compile(*), master], ensime-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.6 {compile=[default, compile, runtime, default(compile), master], runtime=[default, compile, runtime, default(compile), master], test=[default, compile, runtime, default(compile), master], compile-internal=[default, compile, runtime, default(compile), master], runtime-internal=[default, compile, runtime, default(compile), master], test-internal=[default, compile, runtime, default(compile), master], scala-tool=[master(*), compile, runtime(*), runtime, compile(*), master], ensime-internal=[default, compile, runtime, default(compile), master]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-reflect;2.10.6[0m
@@ -29,17 +29,17 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [compile->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], compile-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], runtime-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], test-internal=[default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master], scala-tool=[default, compile, runtime(*), master(compile), runtime, optional, optional(default), compile(*), master], ensime-internal=[default, compile, runtime, default(compile), master]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.10.6 {compile=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], runtime=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], test=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], compile-internal=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], runtime-internal=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], test-internal=[default, master(*), compile, runtime(*), runtime, default(compile), compile(*), master], scala-tool=[default, master(*), compile, runtime(*), runtime, optional, optional(default), compile(*), master], ensime-internal=[default, compile, runtime, default(compile), master]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.10.6] org.scala-lang#scala-library;2.10.6[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -69,10 +69,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -99,10 +99,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
@@ -133,10 +133,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -163,10 +163,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
@@ -193,10 +193,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->default(compile)][0m
@@ -230,10 +230,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -262,10 +262,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile-internal->default(compile)][0m
@@ -296,10 +296,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -326,10 +326,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
@@ -357,10 +357,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime-internal->default(compile)][0m
@@ -392,10 +392,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [compile->default(compile)][0m
@@ -422,10 +422,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [runtime->default(compile)][0m
@@ -452,10 +452,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test->default(compile)][0m
@@ -484,10 +484,10 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [test-internal->default(compile)][0m
@@ -506,38 +506,38 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for core#core$sources_javadoc_2.10;0.1-SNAPSHOT [pom][0m
 [0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
 [0m[[0mdebug[0m] [0m== resolving dependencies for core#core$sources_javadoc_2.10;0.1-SNAPSHOT [scala-tool][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.6 {scala-tool=[master(*), compile, compile(*), master]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.6 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#jline;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-reflect;2.10.6 [scala-tool->master][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master(*)][0m
 [0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[compile, master(compile), compile(*), master]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {scala-tool=[master(*), compile, compile(*), master]}[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
 [0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->compile(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.fusesource.jansi#jansi;1.4 [scala-tool->master][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->default][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime(*)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
-[0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->master(compile)][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->runtime][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scala-library;2.10.6 [scala-tool->optional][0m
@@ -614,8 +614,8 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies core#core$sources_javadoc_2.10;0.1-SNAPSHOT->org.scala-lang#scalap;2.10.6 [ensime-internal->master][0m
 [0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
 [0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
-[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(doc)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.6!scala-reflect.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.6!scala-library.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar(doc)[0m
@@ -626,19 +626,19 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.6!scala-compiler.jar(doc)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.6!scalap.jar(src)[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scalap;2.10.6!scalap.jar(doc)[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 360ms :: artifacts dl 545ms[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-compile.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-runtime.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-test.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-provided.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-optional.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-compile-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-runtime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-test-internal.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-plugin.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-sources.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-docs.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-pom.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT ensime-internal produced in /Users/patrickslagle/scala/MyApps/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-ensime-internal.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (360ms resolve - 545ms download)[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 174ms :: artifacts dl 28ms[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT compile produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT runtime produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT test produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT provided produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT optional produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT compile-internal produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT runtime-internal produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT test-internal produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT plugin produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT sources produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT docs produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT pom produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT scala-tool produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	report for core#core$sources_javadoc_2.10;0.1-SNAPSHOT ensime-internal produced in /home/pslagle12/scala/PattyCakes/core/target/resolution-cache/reports/core-core$sources_javadoc_2.10-ensime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (174ms resolve - 28ms download)[0m
